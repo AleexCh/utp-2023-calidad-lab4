@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Página de Noticias</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		h1 {
+			text-align: center; /* título centrado */
+			margin-top: 30px;
+        }
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .carousel {
+            display: flex;
+            overflow-x: scroll;
+            scroll-snap-type: x mandatory;
+            scroll-behavior: smooth;
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
+        .carousel__item {
+            scroll-snap-align: center;
+            text-align: center;
+            margin-right: 75px;
+            margin-left: 75px;
+        }
+        .carousel__item img {
+            width: 300px;
+            height: auto;
+            border: 3px solid black;
+        }
+	</style>
+</head>
+<body>
+	<h1>Noticias</h1>
+
+	<div class="container">
+		<div class="carousel">
+			<div class="carousel__item">
+				<img src="imagenes/Noticia1.jpg" alt="Noticia 1">
+				<h3>Pelé tiene sus restos en un sitio digno de un rey</h3>
+				<p>Admiradores descubrieron este lunes el ataúd dorado en el que reposan los restos mortales de Pelé, fallecido en diciembre a los 82 años, en la apertura al público de su mausoleo en la ciudad brasileña de Santos, donde labró buena parte de su leyenda.</p>
+			</div>
+			<div class="carousel__item">
+				<img src="imagenes/Noticia2.jpg" alt="Noticia 2">
+				<h3>Estados Unidos ya paga las consecuencias de la crisis de la deuda</h3>
+				<p>La tasa de interés de los bonos del Tesoro estadounidense a un mes subió el lunes hasta el 5,74 %, la más alto en al menos veinte años, frente al 3,29 % de mediados de abril. </p>
+			</div>
+			<div class="carousel__item">
+				<img src="imagenes/Noticia3.jpg" alt="Noticia 3">
+				<h3>Maduro afirma que Venezuela no volverá a la OEA</h3>
+				<p>Maduro afirma que Venezuela no volverá a la OEA.El presidente de Venezuela, Nicolás Maduro, afirmó este lunes que su país no volverá a ser parte de la Organización de Estados Americanos (OEA), organismo del que se deslindó en 2019 por discrepancias.</p>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
