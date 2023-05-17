@@ -2,6 +2,79 @@
 <html>
   <head>
     <title>Mi proyecto GitHub</title>
+    <style>
+      h1{
+            text-align: center;
+            color: #2a4877;
+        }
+        body{
+            padding-right: 15%;
+            padding-left: 15%;
+            background-color: #eff3f6;
+        }
+        p,li{
+            font-size: 20px;
+            color: #3b66ac;
+        }
+        .subtitle{
+            font-weight: 700;
+            font-size: 28px;
+            color: #3b66ac;
+            margin-bottom: 2%;
+        }
+
+        /* Inicio del css para el menu desplegable*/
+
+        /* El boton que se mostrara en la pagina */
+        .dropbtn {
+          background-color:  #3b66ac;
+          color: white;
+          padding: 16px;
+          font-size: 20px;
+          border: none;
+          cursor: pointer;
+        }
+
+        /* El contenedor para el menu, donde los links y el boton se encapsulan */
+        .dropdown {
+          position: relative;
+          display: inline-block;
+        }
+
+        /* Los links que estan dentro del menu, aqui el display por default es none, osea no se muestra hasta que se pase el mouse por encima */
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 237px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        }
+
+        /* Los links que estan dentro del menu */
+        .dropdown-content a {
+          color:  #2a4877;
+          padding: 12px 16px;
+          font-size: 20px;
+          font-weight: 700;
+          text-decoration: none;
+          display: block;
+        }
+
+        /* cambia el color cuando el mouse esta encima del nopmbre */
+        .dropdown-content a:hover {background-color: #f1f1f1}
+
+        /* cambia el display de dropdown-content para mostrarse cuando el mouse esta encima */
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+
+        /* cambia el color al boton para indicar que el mouse esta encima */
+        .dropdown:hover .dropbtn {
+          background-color: #033991;
+        }
+        /*Fin del CSS para el menu desplegable */
+
+    </style>
   </head>
   <body>
     <h1>Bienvenido a mi proyecto GitHub</h1>
@@ -11,5 +84,15 @@
       <li><a href="funcionalidad2.html">Funcionalidad 2</a></li>
       <li><a href="funcionalidad3.html">Funcionalidad 3</a></li>
     </ul>
+
+    <p class="subtitle"> Portafolio Digital</p>
+    <div class="dropdown">
+      <button class="dropbtn">Seleccione un miembro</button>
+      <div class="dropdown-content">
+        <a href="alexander.html">Alexander Chung</a>
+        <a href="maybeth.html">Maybeth Moreno</a>
+        <a href="martin.html">Martin Romero</a>
+      </div>
+    </div>
   </body>
 </html>
