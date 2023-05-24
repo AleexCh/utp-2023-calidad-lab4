@@ -160,3 +160,27 @@ Una vez que se hayan fusionado todas las ramas en la rama principal (main), todo
 los estudiantes tendrán el código completo con todas las funcionalidades 
 
 integradas
+
+# Laboratorio 4 - PARTE 2
+
+<ul>
+<li> El líder debe agregar al proyecto, una página nueva o sección, que se llame “Portafolio Digital” y contenga menú desplegable que se llame “Seleccione un miembro” </li>
+
+<li> Cada ítem del menú debe llevar el nombre de cada integrante del grupo y cuando es presionado debe redirigir a una nueva página HTML. El líder debe realizar esos cambios en la rama Main y hacerle commit y subirlos al repositorio para que todos los integrantes puedan descargar los últimos cambios. </li>
+
+ 
+
+Ejemplo: 
+
+![1](https://github.com/AleexCh/utp-2023-calidad-lab4/assets/14814566/bb40f6c3-915c-4ea6-8798-978463e57631)
+
+
+ ![2](https://github.com/AleexCh/utp-2023-calidad-lab4/assets/14814566/fdcf11ef-5917-4813-99f6-a3ea561c1c48)
+
+
+ 
+<li> Cada uno de los integrantes debe volver a descargar de la rama main los últimos cambios en el cual el líder hizo los nuevos cambios. </li>
+<li> Cada integrante debe crear una nueva rama que se llame “Portafolio digital – nombre del desarrollador” y en esa rama va a desarrollar un portafolio personal en línea utilizando HTML y sí quieren colocar CSS lo pueden hacer. Este portafolio será la página que se va a redireccionar desde el menú desplegable. En esa página deben incluir una sección de presentación, proyectos realizados, habilidades, experiencia y enlaces a proyectos en GitHub. Esto les permitirá mostrar su trabajo y habilidades a posibles empleadores o colaboradores. </li>
+
+<li> Luego de que cada estudiante haya realizado su parte de incluir su página debe realizar su respectivo “pull request” al líder para que este pueda hacer el merge en la rama principal. </li>
+ </ul>
